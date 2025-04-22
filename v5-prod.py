@@ -96,7 +96,7 @@ with st.sidebar:
     case_files = [f for f in os.listdir("data/case_pdfs") if f.lower().endswith(".pdf")]
     case_meta = [parse_case_metadata(f) for f in case_files]
 
-    courts = sorted(set(meta["court"] for meta in case_meta))
+    courts = sorted(set(meta["company"] for meta in case_meta))
     years = sorted(set(meta["year"] for meta in case_meta), reverse=True)
 
     selected_tab = st.radio("🗂 View", ["All Cases", "Recent Cases"], horizontal=True)
