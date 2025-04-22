@@ -11,3 +11,4 @@ langchain-community
 gtts
 PyMuPDF
 PyPDF2
+pymongo
