@@ -76,7 +76,7 @@ with open("data/case_metadata.json") as f:
 
 # --------------------------- Sidebar ---------------------------
 with st.sidebar:
-    st.title("✨ LexiLaw – Legal Wizard")
+    st.title("⚖️ LexiLaw – Legal Wizard")
     st.markdown("### ⚡️ What can I do for you?")
     st.markdown("- 🔍 Search Laws & Judgements")
     st.markdown("- 💬 Ask Legal Questions Naturally")
