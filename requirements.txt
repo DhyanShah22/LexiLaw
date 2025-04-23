@@ -13,3 +13,5 @@ PyMuPDF
 PyPDF2
 pymongo
 python-dotenv
+matplotlib
+scikit-learn
