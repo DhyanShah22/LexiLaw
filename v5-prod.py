@@ -1,4 +1,5 @@
 import os
+import json
 import streamlit as st
 from langchain.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -46,28 +47,16 @@ acts_vector_store = load_vectorstore_from_disk("vectorstores/acts")
 
 # --------------------------- PDF Text Extraction ---------------------------
 def extract_text_from_pdf(pdf_path):
-    """
-    Extracts text from the given PDF file.
-
-    Args:
-    pdf_path (str): Path to the PDF file.
-
-    Returns:
-    str: Extracted text from the PDF.
-    """
     try:
         reader = PdfReader(pdf_path)
-        text = ""
-
-        # Loop through all pages and extract text
-        for page in reader.pages:
-            text += page.extract_text()
-
-        return text
-
+        return "".join(page.extract_text() or "" for page in reader.pages)
     except Exception as e:
         print(f"Error extracting text from {pdf_path}: {str(e)}")
         return ""
+
+# Load case metadata
+with open("data/case_metadata.json") as f:
+    case_meta = json.load(f)
 
 # --------------------------- Sidebar ---------------------------
 with st.sidebar:
@@ -79,56 +68,30 @@ with st.sidebar:
     st.markdown("- Get responses with legal references")
 
     st.markdown("---")
-    st.subheader("📂 Case Selector")
 
-    # --- Extract & Parse Case File Metadata ---
-    def parse_case_metadata(filename):
-        # Example format: "Delhi_High_Court_2023_Sharma_vs_State.pdf"
-        parts = filename.replace(".pdf", "").split("_")
-        if len(parts) < 4:
-            return {"court": "Unknown", "year": "Unknown", "title": filename}
-        return {
-            "court": parts[0] + " " + parts[1],
-            "year": parts[2],
-            "title": "_".join(parts[3:])
-        }
+    # Issue-based Filter
+    st.subheader("🔎 Search by Legal Issue")
+    all_issues = sorted({issue for meta in case_meta for issue in meta.get("issues", [])})
+    selected_issue = st.selectbox("Select Legal Issue", ["All"] + all_issues)
 
-    case_files = [f for f in os.listdir("data/case_pdfs") if f.lower().endswith(".pdf")]
-    case_meta = [parse_case_metadata(f) for f in case_files]
+    # Filter cases based on issue
+    filtered_cases = [meta for meta in case_meta if selected_issue == "All" or selected_issue in meta.get("issues", [])]
 
-    courts = sorted(set(meta["company"] for meta in case_meta))
-    years = sorted(set(meta["year"] for meta in case_meta), reverse=True)
-
-    selected_tab = st.radio("🗂 View", ["All Cases", "Recent Cases"], horizontal=True)
-
-    selected_court = st.selectbox("🏛 Filter by Court", ["All"] + courts)
-    selected_year = st.selectbox("📅 Filter by Year", ["All"] + years)
-
-    # Apply filters
-    filtered_cases = [
-        meta for meta in case_meta
-        if (selected_court == "All" or meta["court"] == selected_court)
-        and (selected_year == "All" or meta["year"] == selected_year)
-    ]
-
-    if selected_tab == "Recent Cases":
-        filtered_cases = sorted(filtered_cases, key=lambda x: x["year"], reverse=True)[:10]
-
-    case_titles = ["None"] + [f"{meta['year']} - {meta['title'].replace('_', ' ')} ({meta['court']})" for meta in filtered_cases]
-    selected_case_title = st.selectbox("🔍 Choose a Case", case_titles)
+    case_titles = ["None"] + [f"{case['year']} - {case['title'].replace('_', ' ')} ({case['court']})" for case in filtered_cases]
+    selected_case_title = st.selectbox("Choose a Case", case_titles)
 
     # Extract original filename for use in main app logic
     selected_case = "None"
     if selected_case_title != "None":
-        selected_index = case_titles.index(selected_case_title) - 1  # Adjust for "None"
-        selected_case = case_files[case_meta.index(filtered_cases[selected_index])]
+        index = case_titles.index(selected_case_title) - 1
+        selected_case = filtered_cases[index]["filename"]
 
     # --------------------------- Clear Chat History When Case is Changed ---------------------------
     if "messages" in st.session_state:
         # Check if the selected case has changed
         if 'last_selected_case' not in st.session_state:
             st.session_state.last_selected_case = selected_case
-        
+
         if st.session_state.last_selected_case != selected_case:
             st.session_state.messages = []  # Clear the messages when case changes
             st.session_state.last_selected_case = selected_case
@@ -146,7 +109,7 @@ with st.sidebar:
 # --------------------------- Main App Header ---------------------------
 st.title("⚖️ LexiLaw – Your Corporate Legal Assistant")
 
-# --------------------------- Filtered Retriever Logic ---------------------------
+# Case-specific Retriever
 
 def create_case_vector(selected_case):
     # Step 1: Extract text from the selected case PDF
@@ -200,15 +163,14 @@ retrieval_chain = ConversationalRetrievalChain.from_llm(
 )
 
 def save_chat_log(question, answer, source_docs, case_name):
-    log_entry = {
+    logs_collection.insert_one({
         "timestamp": datetime.utcnow(),
         "user_question": question,
         "assistant_response": answer,
         "used_case": case_name if case_name != "None" else None,
         "source_documents": [doc.metadata.get("source", "unknown") for doc in source_docs] if source_docs else [],
         "chat_id": st.session_state.get("chat_id", "default_session")
-    }
-    logs_collection.insert_one(log_entry)
+    })
 
 # --------------------------- Chat State ---------------------------
 if "messages" not in st.session_state:
