@@ -60,7 +60,6 @@ with open("data/case_metadata.json") as f:
 
 # --------------------------- Sidebar ---------------------------
 with st.sidebar:
-    
     st.title("⚖️ LexiLaw – Corporate Legal Assistant")
     st.markdown("### 📄 Features")
     st.markdown("- Chat with **Acts** or **Case Laws**")
@@ -69,13 +68,25 @@ with st.sidebar:
 
     st.markdown("---")
 
-    # Issue-based Filter
-    st.subheader("🔎 Search by Legal Issue")
+    # 🔎 Issue-based Filter
+    st.subheader("🔎 Filter Cases")
     all_issues = sorted({issue for meta in case_meta for issue in meta.get("issues", [])})
-    selected_issue = st.selectbox("Select Legal Issue", ["All"] + all_issues)
+    all_courts = sorted({meta.get("court", "") for meta in case_meta if "court" in meta})
+    all_companies = sorted({meta.get("company", "") for meta in case_meta if "company" in meta})
 
-    # Filter cases based on issue
-    filtered_cases = [meta for meta in case_meta if selected_issue == "All" or selected_issue in meta.get("issues", [])]
+    selected_issue = st.selectbox("Select Legal Issue", ["All"] + all_issues)
+    selected_court = st.selectbox("Select Court", ["All"] + all_courts)
+    selected_company = st.selectbox("Select Company", ["All"] + all_companies)
+
+    # 🧠 Apply all filters together
+    def case_filter(meta):
+        return (
+            (selected_issue == "All" or selected_issue in meta.get("issues", [])) and
+            (selected_court == "All" or meta.get("court") == selected_court) and
+            (selected_company == "All" or meta.get("company") == selected_company)
+        )
+
+    filtered_cases = [meta for meta in case_meta if case_filter(meta)]
 
     case_titles = ["None"] + [f"{case['year']} - {case['title'].replace('_', ' ')} ({case['court']})" for case in filtered_cases]
     selected_case_title = st.selectbox("Choose a Case", case_titles)
@@ -86,14 +97,12 @@ with st.sidebar:
         index = case_titles.index(selected_case_title) - 1
         selected_case = filtered_cases[index]["filename"]
 
-    # --------------------------- Clear Chat History When Case is Changed ---------------------------
+    # Clear chat history when case changes
     if "messages" in st.session_state:
-        # Check if the selected case has changed
         if 'last_selected_case' not in st.session_state:
             st.session_state.last_selected_case = selected_case
-
         if st.session_state.last_selected_case != selected_case:
-            st.session_state.messages = []  # Clear the messages when case changes
+            st.session_state.messages = []
             st.session_state.last_selected_case = selected_case
 
     st.markdown("---")

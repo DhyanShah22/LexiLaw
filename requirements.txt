@@ -12,3 +12,4 @@ gtts
 PyMuPDF
 PyPDF2
 pymongo
+python-dotenv
