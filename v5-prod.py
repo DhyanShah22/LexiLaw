@@ -13,12 +13,7 @@ import re
 from datetime import datetime
 from pymongo import MongoClient
 from langchain.schema import Document
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import pandas as pd
-from collections import Counter
-import re
-import seaborn as sns
+
 # --------------------------- Page Config ---------------------------
 st.set_page_config(page_title="LexiLaw ⚖️", page_icon="⚖️")
 
