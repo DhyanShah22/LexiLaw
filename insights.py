@@ -12,7 +12,7 @@ db = client["lexilaw"]
 logs_collection = db["chat_logs"]
 
 # Title for the page
-st.set_page_config(page_title="⚖️ Admin Panel Dashboard - Lexilaw", layout="wide")
+st.set_page_config(page_title="Admin Panel Dashboard - Lexilaw",page_icon="⚖️", layout="wide")
 
 st.title("🧑‍⚖️ Admin Panel – Lexilaw, Your Corporate Legal Assistant")
 
