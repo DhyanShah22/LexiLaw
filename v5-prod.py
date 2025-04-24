@@ -15,7 +15,7 @@ from pymongo import MongoClient
 from langchain.schema import Document
 
 # --------------------------- Page Config ---------------------------
-st.set_page_config(page_title="LexiLaw ⚖️", page_icon="⚖️")
+st.set_page_config(page_title="LexiLaw", page_icon="⚖️")
 
 # --------------------------- Custom Styling ---------------------------
 st.markdown("""
