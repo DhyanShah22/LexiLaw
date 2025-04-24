@@ -13,7 +13,12 @@ import re
 from datetime import datetime
 from pymongo import MongoClient
 from langchain.schema import Document
-
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+import pandas as pd
+from collections import Counter
+import re
+import seaborn as sns
 # --------------------------- Page Config ---------------------------
 st.set_page_config(page_title="LexiLaw ⚖️", page_icon="⚖️")
 
@@ -119,7 +124,6 @@ with st.sidebar:
 
     st.markdown("---")
     st.subheader("🛠️ Settings")
-    dark_mode = st.checkbox("🌘 Enable Dark Theme")
     temperature = st.slider("🔥 Response Creativity", 0.0, 1.0, 0.7, 0.1)
 
     st.markdown("---")

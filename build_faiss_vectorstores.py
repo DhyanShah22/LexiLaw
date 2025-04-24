@@ -74,7 +74,4 @@ def build_vectorstore(input_dir, output_dir):
 
 if __name__ == "__main__":
     os.makedirs("vectorstores/acts", exist_ok=True)
-    os.makedirs("vectorstores/cases", exist_ok=True)
-
     build_vectorstore("data", "vectorstores/acts")
-    build_vectorstore("data/case_pdfs", "vectorstores/cases")
