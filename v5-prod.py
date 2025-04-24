@@ -41,7 +41,6 @@ db = client["lexilaw"]
 logs_collection = db["chat_logs"]
 
 
-
 # --------------------------- API Key ---------------------------
 GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
