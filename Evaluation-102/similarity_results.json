@@ -3,175 +3,175 @@
         "sentence1": "A girl is styling her hair.",
         "sentence2": "A girl is brushing her hair.",
         "human_score": 0.5,
-        "cosine_similarity": 0.8855610872447677
+        "cosine_similarity": 0.8855610872447668
     },
     {
         "sentence1": "A group of men play soccer on the beach.",
         "sentence2": "A group of boys are playing soccer on the beach.",
         "human_score": 0.7199999809265136,
-        "cosine_similarity": 0.9473243908640143
+        "cosine_similarity": 0.9473243908640134
     },
     {
         "sentence1": "One woman is measuring another woman's ankle.",
         "sentence2": "A woman measures another woman's ankle.",
         "human_score": 1.0,
-        "cosine_similarity": 0.9932732667302132
+        "cosine_similarity": 0.9932732667302127
     },
     {
         "sentence1": "A man is cutting up a cucumber.",
         "sentence2": "A man is slicing a cucumber.",
         "human_score": 0.8399999618530274,
-        "cosine_similarity": 0.9852514362787577
+        "cosine_similarity": 0.9852514362787568
     },
     {
         "sentence1": "A man is playing a harp.",
         "sentence2": "A man is playing a keyboard.",
         "human_score": 0.3,
-        "cosine_similarity": 0.845069284498651
+        "cosine_similarity": 0.8450692844986506
     },
     {
         "sentence1": "A woman is cutting onions.",
         "sentence2": "A woman is cutting tofu.",
         "human_score": 0.3599999904632568,
-        "cosine_similarity": 0.8531727003895881
+        "cosine_similarity": 0.853172700389587
     },
     {
         "sentence1": "A man is riding an electric bicycle.",
         "sentence2": "A man is riding a bicycle.",
         "human_score": 0.7,
-        "cosine_similarity": 0.9236932916791939
+        "cosine_similarity": 0.9236932916791929
     },
     {
         "sentence1": "A man is playing the drums.",
         "sentence2": "A man is playing the guitar.",
         "human_score": 0.4400000095367432,
-        "cosine_similarity": 0.876882026136101
+        "cosine_similarity": 0.8768820261361003
     },
     {
         "sentence1": "A man is playing guitar.",
         "sentence2": "A lady is playing the guitar.",
         "human_score": 0.4400000095367432,
-        "cosine_similarity": 0.8819687724073775
+        "cosine_similarity": 0.8819687724073774
     },
     {
         "sentence1": "A man is playing a guitar.",
         "sentence2": "A man is playing a trumpet.",
         "human_score": 0.3427999973297119,
-        "cosine_similarity": 0.8474935899056425
+        "cosine_similarity": 0.8474935899056419
     },
     {
         "sentence1": "A man is playing a guitar.",
         "sentence2": "A man is playing a trumpet.",
         "human_score": 0.3427999973297119,
-        "cosine_similarity": 0.8474935899056425
+        "cosine_similarity": 0.8474935899056419
     },
     {
         "sentence1": "A man is cutting an onion.",
         "sentence2": "A man cuts an onion.",
         "human_score": 1.0,
-        "cosine_similarity": 0.9937030217220375
+        "cosine_similarity": 0.9937030217220368
     },
     {
         "sentence1": "A man is cycling.",
         "sentence2": "A man is talking.",
         "human_score": 0.12000000476837158,
-        "cosine_similarity": 0.7893315042701052
+        "cosine_similarity": 0.789331504270105
     },
     {
         "sentence1": "A man is slicing open a fish.",
         "sentence2": "A man is cutting up a fish.",
         "human_score": 0.8800000190734864,
-        "cosine_similarity": 0.9772276513882225
+        "cosine_similarity": 0.9772276513882223
     },
     {
         "sentence1": "A man is slicing a tomato.",
         "sentence2": "A man is slicing a bun.",
         "human_score": 0.4,
-        "cosine_similarity": 0.8484750944054382
+        "cosine_similarity": 0.8484750944054374
     },
     {
         "sentence1": "A man is playing a guitar.",
         "sentence2": "A man is playing a keyboard.",
         "human_score": 0.3599999904632568,
-        "cosine_similarity": 0.8827378644453331
+        "cosine_similarity": 0.8827378644453324
     },
     {
         "sentence1": "A baby panda goes down a slide.",
         "sentence2": "A panda slides down a slide.",
         "human_score": 0.8800000190734864,
-        "cosine_similarity": 0.9644652744743663
+        "cosine_similarity": 0.9644652744743655
     },
     {
         "sentence1": "A man is singing and playing a guitar.",
         "sentence2": "A man is playing a guitar.",
         "human_score": 0.7199999809265136,
-        "cosine_similarity": 0.9505960907000087
+        "cosine_similarity": 0.9505960907000082
     },
     {
         "sentence1": "A man attacks a woman.",
         "sentence2": "A man slaps a woman.",
         "human_score": 0.7199999809265136,
-        "cosine_similarity": 0.8705879616992718
+        "cosine_similarity": 0.8705879616992711
     },
     {
         "sentence1": "A man is driving a car.",
         "sentence2": "A man is riding a horse.",
         "human_score": 0.24000000953674316,
-        "cosine_similarity": 0.8148247960153083
+        "cosine_similarity": 0.8148247960153082
     },
     {
         "sentence1": "A woman is cutting tofu.",
         "sentence2": "A woman is cutting an onion.",
         "human_score": 0.48000001907348633,
-        "cosine_similarity": 0.859607238731482
+        "cosine_similarity": 0.8596072387314818
     },
     {
         "sentence1": "The woman is styling her hair.",
         "sentence2": "The woman is slicing herbs.",
         "human_score": 0.04000000059604645,
-        "cosine_similarity": 0.7949875539356338
+        "cosine_similarity": 0.7949875539356325
     },
     {
         "sentence1": "Two zebras play in an open field.",
         "sentence2": "Two zebras are playing in a field.",
         "human_score": 0.8399999618530274,
-        "cosine_similarity": 0.9873492010448205
+        "cosine_similarity": 0.9873492010448202
     },
     {
         "sentence1": "A man is cutting a potato.",
         "sentence2": "A man is slicing some potato.",
         "human_score": 0.8800000190734864,
-        "cosine_similarity": 0.9785357611135596
+        "cosine_similarity": 0.9785357611135588
     },
     {
         "sentence1": "A man is slicing an onion.",
         "sentence2": "A woman is slicing a pumpkin.",
         "human_score": 0.45,
-        "cosine_similarity": 0.8113341962177518
+        "cosine_similarity": 0.8113341962177514
     },
     {
         "sentence1": "A  man is dancing.",
         "sentence2": "A man and woman is dancing.",
         "human_score": 0.4,
-        "cosine_similarity": 0.9123892112118541
+        "cosine_similarity": 0.9123892112118531
     },
     {
         "sentence1": "A man is riding a motorcycle.",
         "sentence2": "A woman is riding a horse.",
         "human_score": 0.15,
-        "cosine_similarity": 0.7818913517158135
+        "cosine_similarity": 0.7818913517158128
     },
     {
         "sentence1": "A woman is slicing garlics.",
         "sentence2": "A woman is slicing an onion.",
         "human_score": 0.4400000095367432,
-        "cosine_similarity": 0.9174025346816946
+        "cosine_similarity": 0.9174025346816939
     },
     {
         "sentence1": "A man is speaking.",
         "sentence2": "A man is cooking.",
         "human_score": 0.1600000023841858,
-        "cosine_similarity": 0.8130160165524665
+        "cosine_similarity": 0.8130160165524654
     },
     {
         "sentence1": "A little boy is singing and playing a guitar.",
@@ -183,115 +183,115 @@
         "sentence1": "A turtle is swimming in water.",
         "sentence2": "A turtle is walking underwater.",
         "human_score": 0.6400000095367432,
-        "cosine_similarity": 0.938919882151154
+        "cosine_similarity": 0.9389198821511536
     },
     {
         "sentence1": "A young woman is putting stickers all over her face.",
         "sentence2": "A woman is applying stickers to her face.",
         "human_score": 0.9600000381469727,
-        "cosine_similarity": 0.9661922429351076
+        "cosine_similarity": 0.966192242935107
     },
     {
         "sentence1": "A woman is wrapping tofu.",
         "sentence2": "A woman is balling dough.",
         "human_score": 0.27999999523162844,
-        "cosine_similarity": 0.7634215274386635
+        "cosine_similarity": 0.7634215274386633
     },
     {
         "sentence1": "A cat is eating some corn.",
         "sentence2": "A cat is eating corn on the cob.",
         "human_score": 0.85,
-        "cosine_similarity": 0.9640871559244295
+        "cosine_similarity": 0.9640871559244294
     },
     {
         "sentence1": "A man is eating a food.",
         "sentence2": "A man is eating a piece of bread.",
         "human_score": 0.6800000190734863,
-        "cosine_similarity": 0.9193092920536938
+        "cosine_similarity": 0.9193092920536935
     },
     {
         "sentence1": "A man is playing a guitar.",
         "sentence2": "A man is eating pasta.",
         "human_score": 0.10659999847412109,
-        "cosine_similarity": 0.7507055063485937
+        "cosine_similarity": 0.7507055063485933
     },
     {
         "sentence1": "A man is kicking pots of water.",
         "sentence2": "A man is picking flowers.",
         "human_score": 0.0800000011920929,
-        "cosine_similarity": 0.7341160762051198
+        "cosine_similarity": 0.7341160762051192
     },
     {
         "sentence1": "A man is cutting a pipe with scissors.",
         "sentence2": "A man is cutting carpet with a knife.",
         "human_score": 0.24000000953674316,
-        "cosine_similarity": 0.8434667679227977
+        "cosine_similarity": 0.8434667679227973
     },
     {
         "sentence1": "A woman is dancing in the rain.",
         "sentence2": "A woman dances in the rain out side.",
         "human_score": 1.0,
-        "cosine_similarity": 0.985103450364649
+        "cosine_similarity": 0.9851034503646477
     },
     {
         "sentence1": "A woman is taking a bath.",
         "sentence2": "A woman is riding a horse.",
         "human_score": 0.10759999752044677,
-        "cosine_similarity": 0.7310766489198035
+        "cosine_similarity": 0.7310766489198033
     },
     {
         "sentence1": "A man mixes vegetables in a pot.",
         "sentence2": "A person is stirring vegetables in a pot.",
         "human_score": 0.75,
-        "cosine_similarity": 0.9304552034769756
+        "cosine_similarity": 0.9304552034769749
     },
     {
         "sentence1": "A woman is talking on a cell phone.",
         "sentence2": "A man and woman are talking on the phone.",
         "human_score": 0.6,
-        "cosine_similarity": 0.919537202717193
+        "cosine_similarity": 0.9195372027171915
     },
     {
         "sentence1": "A man is playing a guitar.",
         "sentence2": "A man is singing while playing the guitar.",
         "human_score": 0.7199999809265136,
-        "cosine_similarity": 0.9460270069538175
+        "cosine_similarity": 0.9460270069538168
     },
     {
         "sentence1": "A man is playing a guitar.",
         "sentence2": "A man is driving a car.",
         "human_score": 0.1,
-        "cosine_similarity": 0.7950982206241388
+        "cosine_similarity": 0.7950982206241386
     },
     {
         "sentence1": "A man is cutting apple by his hand.",
         "sentence2": "A man is cutting carpet with a knife.",
         "human_score": 0.3,
-        "cosine_similarity": 0.7804655659333422
+        "cosine_similarity": 0.7804655659333418
     },
     {
         "sentence1": "A man is opening a door.",
         "sentence2": "A man is cutting an onion.",
         "human_score": 0.1600000023841858,
-        "cosine_similarity": 0.764025365669941
+        "cosine_similarity": 0.76402536566994
     },
     {
         "sentence1": "A man is slicing a tomato.",
         "sentence2": "A man is riding a horse.",
         "human_score": 0.1600000023841858,
-        "cosine_similarity": 0.7199805776613859
+        "cosine_similarity": 0.7199805776613856
     },
     {
         "sentence1": "A man is cutting paper with a sword.",
         "sentence2": "A woman is cutting a tomato.",
         "human_score": 0.12000000476837158,
-        "cosine_similarity": 0.7301209435780358
+        "cosine_similarity": 0.7301209435780354
     },
     {
         "sentence1": "A boy studies a calendar.",
         "sentence2": "A boy is looking at a calendar.",
         "human_score": 0.8800000190734864,
-        "cosine_similarity": 0.9765238701588487
+        "cosine_similarity": 0.9765238701588479
     },
     {
         "sentence1": "The ballerina is dancing.",
@@ -303,300 +303,300 @@
         "sentence1": "A woman is dancing.",
         "sentence2": "A woman is playing violin.",
         "human_score": 0.0800000011920929,
-        "cosine_similarity": 0.8080380895326869
+        "cosine_similarity": 0.8080380895326863
     },
     {
         "sentence1": "A woman is slicing some tomatoes.",
         "sentence2": "A woman is chopping a potato.",
         "human_score": 0.27999999523162844,
-        "cosine_similarity": 0.9100982066236473
+        "cosine_similarity": 0.9100982066236468
     },
     {
         "sentence1": "A woman is water skiing.",
         "sentence2": "A woman is slicing fish.",
         "human_score": 0.0800000011920929,
-        "cosine_similarity": 0.744752574843006
+        "cosine_similarity": 0.7447525748430053
     },
     {
         "sentence1": "A man is playing a flute.",
         "sentence2": "A man is riding a scooter.",
         "human_score": 0.1600000023841858,
-        "cosine_similarity": 0.7268206876836482
+        "cosine_similarity": 0.7268206876836475
     },
     {
         "sentence1": "A man is playing the piano.",
         "sentence2": "A man played the guitar.",
         "human_score": 0.4,
-        "cosine_similarity": 0.8389421101203594
+        "cosine_similarity": 0.8389421101203595
     },
     {
         "sentence1": "A woman is picking a can.",
         "sentence2": "A man is playing a guitar.",
         "human_score": 0.026600000262260438,
-        "cosine_similarity": 0.6461741449366563
+        "cosine_similarity": 0.6461741449366561
     },
     {
         "sentence1": "A man puts three pieces of meat into a pan.",
         "sentence2": "A man is putting meat in a pan.",
         "human_score": 0.8,
-        "cosine_similarity": 0.9529811453873885
+        "cosine_similarity": 0.9529811453873882
     },
     {
         "sentence1": "A woman is cutting an onion.",
         "sentence2": "A woman is cleaning a garden.",
         "human_score": 0.05339999794960022,
-        "cosine_similarity": 0.7760442594012085
+        "cosine_similarity": 0.7760442594012075
     },
     {
         "sentence1": "Some men are sawing.",
         "sentence2": "Men are sawing logs.",
         "human_score": 0.6800000190734863,
-        "cosine_similarity": 0.9393685633214185
+        "cosine_similarity": 0.9393685633214182
     },
     {
         "sentence1": "A car is driven down the road.",
         "sentence2": "A girl is walking down a road.",
         "human_score": 0.24000000953674316,
-        "cosine_similarity": 0.819365797903231
+        "cosine_similarity": 0.81936579790323
     },
     {
         "sentence1": "The man is kissing and hugging the woman.",
         "sentence2": "A man is hugging and kissing a woman.",
         "human_score": 1.0,
-        "cosine_similarity": 0.990035801367744
+        "cosine_similarity": 0.9900358013677436
     },
     {
         "sentence1": "A train is moving.",
         "sentence2": "A man is doing yoga.",
         "human_score": 0.0,
-        "cosine_similarity": 0.7099093812185239
+        "cosine_similarity": 0.7099093812185233
     },
     {
         "sentence1": "Someone is slicing an onion.",
         "sentence2": "A woman is cutting onion.",
         "human_score": 0.7599999904632568,
-        "cosine_similarity": 0.9422171584807824
+        "cosine_similarity": 0.9422171584807815
     },
     {
         "sentence1": "A woman is playing in the ocean.",
         "sentence2": "A woman is preparing shrimp to cook.",
         "human_score": 0.15,
-        "cosine_similarity": 0.7142683888034586
+        "cosine_similarity": 0.7142683888034587
     },
     {
         "sentence1": "A person is playing an electronic keyboard.",
         "sentence2": "A kid is playing keyboard.",
         "human_score": 0.6800000190734863,
-        "cosine_similarity": 0.900084280305417
+        "cosine_similarity": 0.9000842803054165
     },
     {
         "sentence1": "A man is holding a leaf.",
         "sentence2": "A monkey is fighting a man.",
         "human_score": 0.0,
-        "cosine_similarity": 0.6660500392892262
+        "cosine_similarity": 0.6660500392892263
     },
     {
         "sentence1": "A woman is peeling shrimp.",
         "sentence2": "A man is squeezing water.",
         "human_score": 0.04000000059604645,
-        "cosine_similarity": 0.7038708446776952
+        "cosine_similarity": 0.7038708446776947
     },
     {
         "sentence1": "A man is sitting and smoking.",
         "sentence2": "A man is smoking a cigarette.",
         "human_score": 0.8,
-        "cosine_similarity": 0.9425815205686079
+        "cosine_similarity": 0.9425815205686077
     },
     {
         "sentence1": "A man is playing a guitar.",
         "sentence2": "A woman is riding a horse.",
         "human_score": 0.1,
-        "cosine_similarity": 0.6827230099826618
+        "cosine_similarity": 0.6827230099826613
     },
     {
         "sentence1": "A man is standing in front of the window and looking outside.",
         "sentence2": "A man is staring out the window.",
         "human_score": 0.7599999904632568,
-        "cosine_similarity": 0.9644115116952146
+        "cosine_similarity": 0.9644115116952138
     },
     {
         "sentence1": "A skunk is looking here and there.",
         "sentence2": "A skunk looks at the camera.",
         "human_score": 0.48000001907348633,
-        "cosine_similarity": 0.9498503025340731
+        "cosine_similarity": 0.9498503025340723
     },
     {
         "sentence1": "A man is playing the guitar and singing.",
         "sentence2": "A man sings with a guitar.",
         "human_score": 0.95,
-        "cosine_similarity": 0.9828684858000755
+        "cosine_similarity": 0.9828684858000747
     },
     {
         "sentence1": "A woman opens a window.",
         "sentence2": "A man is crawling.",
         "human_score": 0.0,
-        "cosine_similarity": 0.6506035401142345
+        "cosine_similarity": 0.6506035401142338
     },
     {
         "sentence1": "People are dancing outside.",
         "sentence2": "A group of people are dancing.",
         "human_score": 0.75,
-        "cosine_similarity": 0.9328797730844746
+        "cosine_similarity": 0.9328797730844745
     },
     {
         "sentence1": "The man is using a camera to hammer a nail.",
         "sentence2": "Someone is banging a camera lense against a nail.",
         "human_score": 0.5199999809265137,
-        "cosine_similarity": 0.8858693664920341
+        "cosine_similarity": 0.8858693664920336
     },
     {
         "sentence1": "A woman is filing her nails.",
         "sentence2": "A man is peeling a carrot.",
         "human_score": 0.0,
-        "cosine_similarity": 0.7004205832276285
+        "cosine_similarity": 0.700420583227628
     },
     {
         "sentence1": "A boy is crawling into a dog house.",
         "sentence2": "A boy is playing a wooden flute.",
         "human_score": 0.15,
-        "cosine_similarity": 0.7020430132309204
+        "cosine_similarity": 0.7020430132309202
     },
     {
         "sentence1": "A woman is swimming underwater.",
         "sentence2": "A man is slicing some carrots.",
         "human_score": 0.0,
-        "cosine_similarity": 0.5913495139677588
+        "cosine_similarity": 0.5913495139677585
     },
     {
         "sentence1": "A machine is sharpening a pencil.",
         "sentence2": "The machine shaved the end of the pencil.",
         "human_score": 0.7599999904632568,
-        "cosine_similarity": 0.8584275431980191
+        "cosine_similarity": 0.8584275431980185
     },
     {
         "sentence1": "A monkey is playing drums.",
         "sentence2": "A gorilla plays the drums.",
         "human_score": 0.5599999904632569,
-        "cosine_similarity": 0.9111143679183041
+        "cosine_similarity": 0.9111143679183037
     },
     {
         "sentence1": "A man is opening a box and taking out paper.",
         "sentence2": "A woman is peeling a potato.",
         "human_score": 0.0,
-        "cosine_similarity": 0.6809314884578195
+        "cosine_similarity": 0.6809314884578186
     },
     {
         "sentence1": "A woman is dancing.",
         "sentence2": "A woman plays the clarinet.",
         "human_score": 0.1600000023841858,
-        "cosine_similarity": 0.7786659960721527
+        "cosine_similarity": 0.7786659960721526
     },
     {
         "sentence1": "A person is drawing on a large touchscreen.",
         "sentence2": "A man is drawing on a digital dry erase board.",
         "human_score": 0.6,
-        "cosine_similarity": 0.8922254192940939
+        "cosine_similarity": 0.8922254192940937
     },
     {
         "sentence1": "The men played follow the leader on the grass.",
         "sentence2": "The rhino grazed on the grass.",
         "human_score": 0.2,
-        "cosine_similarity": 0.6947825697688406
+        "cosine_similarity": 0.6947825697688397
     },
     {
         "sentence1": "A woman is cracking eggs.",
         "sentence2": "A man is talking to a woman.",
         "human_score": 0.0,
-        "cosine_similarity": 0.7069207583841648
+        "cosine_similarity": 0.7069207583841646
     },
     {
         "sentence1": "A woman peels garlic with her hands.",
         "sentence2": "The woman is slicing herbs.",
         "human_score": 0.2,
-        "cosine_similarity": 0.8623690370459778
+        "cosine_similarity": 0.862369037045977
     },
     {
         "sentence1": "The polar bears fought over the kill.",
         "sentence2": "Polar bears are fighting each other.",
         "human_score": 0.6800000190734863,
-        "cosine_similarity": 0.8839249951431501
+        "cosine_similarity": 0.8839249951431499
     },
     {
         "sentence1": "A man is doing trick with play cards.",
         "sentence2": "A man is performing a card trick.",
         "human_score": 1.0,
-        "cosine_similarity": 0.9595305700367048
+        "cosine_similarity": 0.9595305700367044
     },
     {
         "sentence1": "The cat is licking a bottle.",
         "sentence2": "A cat plays with a small bottle.",
         "human_score": 0.4665999889373779,
-        "cosine_similarity": 0.9204099966075034
+        "cosine_similarity": 0.9204099966075029
     },
     {
         "sentence1": "A person is slicing an onion.",
         "sentence2": "A person cuts ginger.",
         "human_score": 0.27999999523162844,
-        "cosine_similarity": 0.8494214041829218
+        "cosine_similarity": 0.8494214041829212
     },
     {
         "sentence1": "A person is peeling a potato with a potato peeler.",
         "sentence2": "A man is cutting tomatoes with a cleaver.",
         "human_score": 0.15,
-        "cosine_similarity": 0.8110869103405504
+        "cosine_similarity": 0.8110869103405497
     },
     {
         "sentence1": "Two women are dancing and singing in front of a crowd.",
         "sentence2": "The women are singing and dancing.",
         "human_score": 0.7076000213623047,
-        "cosine_similarity": 0.9180121720846028
+        "cosine_similarity": 0.9180121720846023
     },
     {
         "sentence1": "A man is seasoning some carrots.",
         "sentence2": "A woman is slicing garlic.",
         "human_score": 0.1600000023841858,
-        "cosine_similarity": 0.7815302243460196
+        "cosine_similarity": 0.7815302243460195
     },
     {
         "sentence1": "Two men pushed carts through the woods.",
         "sentence2": "Two men are pushing carts.",
         "human_score": 0.7,
-        "cosine_similarity": 0.9132183897102462
+        "cosine_similarity": 0.9132183897102458
     },
     {
         "sentence1": "A man is playing a football.",
         "sentence2": "A man is maneuvering a soccer ball with his feet.",
         "human_score": 0.4,
-        "cosine_similarity": 0.8605007556771327
+        "cosine_similarity": 0.8605007556771324
     },
     {
         "sentence1": "The lady peeled the potatoe.",
         "sentence2": "A woman is peeling a potato.",
         "human_score": 0.95,
-        "cosine_similarity": 0.9102414501764973
+        "cosine_similarity": 0.9102414501764963
     },
     {
         "sentence1": "A woman is slicing some tofu.",
         "sentence2": "A woman is cutting a block of tofu into small cubes.",
         "human_score": 0.8,
-        "cosine_similarity": 0.9595206295172342
+        "cosine_similarity": 0.9595206295172327
     },
     {
         "sentence1": "Someone typed on a keyboard.",
         "sentence2": "Someone is typing.",
         "human_score": 0.9,
-        "cosine_similarity": 0.9503696066289474
+        "cosine_similarity": 0.9503696066289471
     },
     {
         "sentence1": "Three young men run, jump, and kick off of a Coke machine.",
         "sentence2": "Three men are jumping off a wall.",
         "human_score": 0.3,
-        "cosine_similarity": 0.8196837511878274
+        "cosine_similarity": 0.8196837511878268
     },
     {
         "sentence1": "A young Asian girl is applying eyeliner.",
         "sentence2": "A girl is putting on eye makeup.",
         "human_score": 0.48000001907348633,
-        "cosine_similarity": 0.9227658641582309
+        "cosine_similarity": 0.92276586415823
     }
 ]
