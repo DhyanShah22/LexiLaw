@@ -75,7 +75,7 @@ with open("data/case_metadata.json") as f:
 
 # --------------------------- Sidebar ---------------------------
 with st.sidebar:
-    st.title("⚖️ LexiLaw – Legal Wizard")
+    st.title("🧑‍⚖️ LexiLaw – Legal Wizard")
     st.markdown("### ⚡️ What can I do for you?")
     st.markdown("- 🔍 Search Laws & Judgements")
     st.markdown("- 💬 Ask Legal Questions Naturally")
@@ -125,7 +125,7 @@ with st.sidebar:
     st.caption("LexiLaw v2.0.0 | Law Meets AI Magic ✨")
 
 # --------------------------- Main App Header ---------------------------
-st.title("🧑‍⚖️ LexiLaw – Your Corporate Legal Assistant")
+st.title("⚖️ LexiLaw – Your Corporate Legal Assistant")
 
 # Case-specific Retriever
 def create_case_vector(selected_case):
