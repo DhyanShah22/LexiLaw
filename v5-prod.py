@@ -148,7 +148,7 @@ else:
 memory = ConversationBufferMemory(memory_key="chat_history", output_key="answer", return_messages=True)
 
 chat_model = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash-preview-04-17",
+    model="gemini-2.5-flash-lite",
     google_api_key=GEMINI_API_KEY,
     temperature=temperature,
     credentials=None,
